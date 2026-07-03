@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tajerta de presentación</title>
+    <style>
+        body{
+            background-color: rgb(29, 40, 78);
+            font-family: 'Arial', Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0;
+        }
+
+        .tarjeta{
+            display: flex;
+            width: 900px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            overflow: hidden; 
+        }
+
+        .col-izquierda{
+            background-color: #e8d8e8;
+            width: 35%;
+            padding: 30px 20px;
+            color: #333;
+        }
+
+        .foto{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        .col-izquierda h3{
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #b3a1b3;
+            padding-bottom: 5px;
+        }
+
+        .col-izquierda p{
+            font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .contacto{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .col-derecha{
+            width: 65%;
+            padding: 40px 30px;
+            color: #222;
+        }
+
+        .nombre{
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        .puesto{
+            font-size: 16px;
+            font-weight: 600;
+            color: #555;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+
+        .seccion h3{
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #6b7a8f; /* Azul grisáceo de la foto */
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .seccion p{
+            font-size: 12px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .seccion ul{
+            padding-left: 18px;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
+        <div class="col-izquierda">
+            <img src=https://lh3.googleusercontent.com/rd-gg/AEir0wKjfife6sx-C6_T7n3yo1fDOyx6u8G-BKjgEswwlD4PNu4IPNv8ZXgjsr4ZEut56L9YP65pBNezKxM-BnJlE3-dqDhla5BECP2mU_D_87MRM1dtuJJzIvttRSQrCLFjo26XVwIVrAWk-9FCnJnsFbu4j3y5PedB3GLln7Nn4z3JQYJUOD2g8l50rGwnYNA_hG2U8zDSK_s_EjBwb07zosRvQL5BUTbBFW35B9DuoVEvfRGxnSZUIDbMJKnD2I1jXVBOHo2EN0jiHeElY_FCEJXaABW0_xUdomhcSBRJa-wS-rdAG8qHZOFc2PdQV6GuE5db225NNgUYkk-UTL0KsE8Mw3pcxWBbUVPLqAF08Ym4gnc5Oy5_hu1YKW9REXAq5gpOdYnzgErfeGKCrViZDf3pfG0IjlHd8l-xGYrB0zRl7Sv1VxLBwpxl1K4cOncdybLXIWTsQEEzt1KbHF7JpGyEdApWh3HFSoSiKBn5L4F1T8JcwWvYDhk95pZWegqh5lGlMRRQxUDJUhB3QDXM-Y_6OOhq8cJaaulm4YsZM2ivd8EIYDc8ZKxuODfWiRmGnB9h3A6y4SDVFRpJWGg4MH9BgH0YX8OdvryK6ui3zV2Par6ErrlE9acOsu6A12GlafTSSidie8rKgvzXvRDVS2ncsVZ565TMGTYnPNi-0wNRClms6UHkiOOP75ggUw-PyZvOQj_CcQYjowSqam4puCHEdC1ARkwjNCrxr2-J_OeUCKwWEW0hkn7LPvlbRApxBZiYZ8bhUYZoz-Ckx8OwXnjnL14kWzLtTaj-ZRO4DtOV8j8scDgNytAvnFY7Gh7q5lvlx4uHZG9IbELCCKYWA5YQp0UrPJRi9oOaOoj953HhzkWdtCAc5h_yowr69sh81p2XK5EOogtIasl6je0D8_XhtAA0m9p1TMB-vzmWaA7rqHNCH6unyGTdOW1X8MJsvc_qv6IUIp9y0V00_cJxDMy-oe7bdI4fX1dInb529JI8CtSU4sJjX_gV9HbaCI5-0LbQNt41v8K4-QVFKQjJ_5P4CrvgEsjVvc_7xt_MuZBP9i9KasnuaFbqca2ywaVZbuTekNQyd-vHq7LVfuRGxiphude9KHowtwLQgUhUqpV701w6quTqR_O9OJMJcSOdiOIw9KGhfvmuHvJ2XBCpAyLZRyGvt6gl6M8zblczn0QIRFvLWHATbLedbW7a9A4A523RVEk0INXFgUsu5EYB8cZ2Jq_tgQnNByFQfAzPT_z399LzsQxKv-nTG3XRPM4WqDHlRbbNvVFve-MjrtPFMO70NFlz_TFIVrp6it4iEoIwrdSsqdth6jFDuPohdS98ACtXwMaXJtsd0DWAjiv1QRHFW0lBUhWhGI3wzmWlOQCPp8lffuL_08-Ckcw7UDHETw2whl2FVrHEgOID3nhguBv5IpuAproVh5gTOnZZYlHYxQ_NOPPeK0Ytm03VPDotEg=s1024-rj?authuser=2"" alt="Foto" class="foto"> 
+            
+            <h3>PERFIL</h3>
+            <p>Estudiante de Dibujo Técnico y Construcción. Soy una persona responsable y ordenada. Busco mi primera experiencia laboral para aplicar lo aprendido</p>
+
+            <h3 style="margin-top: 40px;">CONTACTO</h3>
+            <div class="contacto">
+                <span>📞</span> +502 33753273
+            </div>
+            <div class="contacto">
+                <span>✉️</span> dianrosvel@gmail.com
+            </div>
+            <div class="contacto">
+                <span>📍</span> 0-98, zona 0, Calle de los Alcaldez, Barrio Abajo, San Jerónimo B.V
+            </div>
+        </div>
+
+        <div class="col-derecha">
+            <h1 class="nombre">DIANA SOFÍA <br> ROSALES VELASQUEZ</h1>
+            <p class="puesto">Estudiante</p>
+
+            <div class="seccion">
+                <h3>EDUCACIÓN</h3>
+                <p><strong>Colegio Particular Mixto Ciencia y Desarrollo</strong> <br> 2025-2026 <br> Bachillerato en Dibujo Técnico y Construcción</p>
+                <p><strong>IDEALAB</strong> <br> 2024-2024 <br> Técnico en Diseño Gráfico</p>
+                <p><strong>Gif English Center</strong> <br>2025-2026 <br> Intensive Course - Beginner </p>
+            </div>
+
+            <div class="seccion">
+                <h3>IDIOMA</h3>
+                <p>Español: Nativo <br> Inglés: Intermedio</p>
+            </div>
+
+            <div class="seccion">
+                <h3>HABILIDADES TÉCNICAS E INFROMATICAS</h3>
+                <ul>
+                    <li>AutoCAD</li>
+                    <li>Photoshop</li>
+                    <li>Ilustrator</li>
+                    <li>Dibujo digital/tradicional</li>
+                    <li>Microsoft Word</li>
+                    <li>Excel</li>
+                     <li>Canva</li>
+                </ul>
+            </div>
+
+             <div class="seccion">
+                <h3>EXPERIENCIA VOLUNTARIA</h3>
+                <p>Confidente en Campamento Evangelismo del Niño <br> Apoyo en organización de donaciones <br>Voluntaria en Jornada de Vacunación Canina 2024</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
